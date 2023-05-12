@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	maelstrom "github.com/jepsen-io/maelstrom/demo/go"
 	"log"
-	"os"
 )
 
 func main() {
@@ -26,7 +25,6 @@ func main() {
 	if err := n.Run(); err != nil {
 		log.Printf("ERROR: %s", err)
 		log.Fatal(err)
-		os.Exit(1)
 	}
 
 }
