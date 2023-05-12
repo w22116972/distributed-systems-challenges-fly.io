@@ -1,4 +1,4 @@
-# Unique IDs challenge
+# Challenge #2: Unique ID Generation
 
 ### How 
 
