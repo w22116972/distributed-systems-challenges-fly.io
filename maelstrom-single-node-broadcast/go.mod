@@ -1,4 +1,4 @@
-module single-node-broadcast
+module maelstrom-single-node-broadcast
 
 go 1.20
 
